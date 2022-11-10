@@ -16,7 +16,7 @@ inline vector operator/ (vector &v, float x) {return vector(v[0] / x, v[1] / x, 
 inline vector& vector::operator+=(const float x) {v[0] += x; v[1] += x; v[2] += x; return *this;}
 inline vector& vector::operator-=(const float x) {v[0] -= x; v[1] -= x; v[2] -= x; return *this;}
 inline vector& vector::operator*=(const float x) {v[0] *= x; v[1] *= x; v[2] *= x; return *this;}
-inline vector& vector::operator/=(const float x) {{v[0] /= x; v[1] /= x; v[2] /= x; return *this;}
+inline vector& vector::operator/=(const float x) {v[0] /= x; v[1] /= x; v[2] /= x; return *this;}
 
 
 // vector-vector functions
